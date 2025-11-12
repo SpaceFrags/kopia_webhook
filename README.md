@@ -1,10 +1,20 @@
-# Kopia Webhook Status
+# Kopia Webhook
 
 ## 💾 Monitor Your Kopia Backups in Home Assistant
 
-The **Kopia Webhook Status** integration provides a sensor entity in Home Assistant that is updated immediately whenever a Kopia backup job completes.
+***
 
-Unlike polling-based solutions, this integration uses a **push-based webhook** to instantly receive the backup status, making it highly efficient and responsive. It also stores a full history of your recent backups as attributes on the sensor.
+## Disclaimer
+
+This integration is an **independent, community-maintained project** and is **not affiliated with, endorsed by, or officially associated with the Kopia project** or its developers.
+
+Kopia is a registered trademark of its respective owners. This project uses the name "Kopia" solely for the purpose of identifying the software it integrates with.
+
+***
+
+The **Kopia Webhook** integration provides a sensor entity in Home Assistant that is updated immediately whenever a Kopia backup job completes.
+
+Kopia's API can be sometimes hit or miss as such unlike polling-based solutions, this integration uses a **push-based webhook** to instantly receive the backup status, making it highly efficient and responsive. It also stores a full history of your recent backups as attributes on the sensor.
 
 The integration supports **multiple Kopia instances**, allowing you to monitor several different backup jobs (e.g., separate machines or users) with unique sensor entities.
 
