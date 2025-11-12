@@ -1,0 +1,16 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "webhook_id": "Webhook ID",
+                    "history_limit": "History Limit (5-40 Snapshots)"
+                },
+                "description": "Enter the desired unique ID for the webhook URL, and the number of past snapshots to track (5-40)."
+            }
+        },
+        "error": {
+            "invalid_format": "The Webhook ID must contain only alphanumeric characters or underscores."
+        }
+    }
+}

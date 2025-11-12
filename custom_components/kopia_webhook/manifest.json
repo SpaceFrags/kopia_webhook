@@ -1,0 +1,10 @@
+{
+    "domain": "kopia_webhook",
+    "name": "Kopia",
+    "codeowners": ["@SpaceFrags"],
+    "config_flow": true,
+    "dependencies": [],
+    "documentation": "https://github.com/SpaceFrags/kopia_webhook",
+    "requirements": ["aiohttp"],
+    "version": "1.0.0"
+}
