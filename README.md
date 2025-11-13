@@ -18,6 +18,10 @@ Kopia's API can be sometimes hit or miss as such unlike polling-based solutions,
 
 The integration supports **multiple Kopia instances**, allowing you to monitor several different backup jobs (e.g., separate machines or users) with unique sensor entities.
 
+It is designed specifically to work with the official-unofficial Home Assistant custom card: [Kopia Backup Card](https://github.com/SpaceFrags/kopia-backup-card).
+
+<img width="524" height="242" alt="image" src="https://github.com/user-attachments/assets/704e3dab-e6b3-4d43-8d31-1da4ade7667d" />
+
 ***
 
 ## Installation
