@@ -1,5 +1,5 @@
 {
-    "name": "Kopia Webhook Status",
+    "name": "Kopia Webhook",
     "render_readme": true,
     "domains": ["sensor", "webhook"],
     "homeassistant": "2023.10.0"
