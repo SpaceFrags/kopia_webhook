@@ -26,7 +26,13 @@ It is designed specifically to work with the official-unofficial Home Assistant 
 
 ## Installation
 
-### 1. Installation via HACS (Recommended)
+### 1. Installation via HACS My Home Assistant (Recommended)
+
+The easiest way to install the Kopia Backup Card is via HACS.
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=SpaceFrags&repository=kopia_webhook&category=integration)
+
+### 2. Installation via HACS Manually
 
 HACS (Home Assistant Community Store) makes installation and updates simple. Since this is a new custom component, you must first add my repository to HACS.
 
@@ -39,7 +45,7 @@ HACS (Home Assistant Community Store) makes installation and updates simple. Sin
 7.  After the repository is added, search for **"Kopia"** in the HACS Integrations section and click **Download**.
 8.  **Restart Home Assistant** to load the new integration.
 
-### 2. Manual Installation
+### 3. Manual Installation
 
 1.  Download the latest release zip file from the [GitHub releases page](https://github.com/SpaceFrags/kopia_webhook/releases).
 2.  Extract the contents. You should find a folder named `kopia_webhook`.
